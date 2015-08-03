@@ -2,9 +2,6 @@ jenkins:
     build: .
     ports:
         - "8080:8080"
-    volumes:
-        - jenkins_home:/var/jenkins_home
-        - www:/var/www
     links:
         - dev:dev
         - seleniumhub:seleniumhub
