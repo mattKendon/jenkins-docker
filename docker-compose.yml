@@ -5,6 +5,8 @@ jenkins:
     links:
         - dev:dev
         - seleniumhub:seleniumhub
+    volumes:
+        - www:/var/www
 web:
     image: php:5.6-apache
     ports:
