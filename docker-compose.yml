@@ -4,6 +4,7 @@ jenkins:
         - "8080:8080"
     volumes:
         - jenkins_home:/var/jenkins_home
+        - www:/var/www
 web:
     image: php:5.6-apache
     ports:
