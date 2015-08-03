@@ -7,7 +7,7 @@ jenkins:
         - www:/var/www
     links:
         - dev:dev
-        - phantomjs:phantomjs
+        - selenium-hub:selenium-hub
 web:
     image: php:5.6-apache
     ports:
@@ -18,5 +18,5 @@ dev:
     image: php:5.6-apache
     volumes:
         - dev-www:/var/www/html
-phantomjs:
-    image: phantomjs
+selenium-hub:
+    image: selenium/hub
