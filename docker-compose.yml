@@ -4,3 +4,5 @@ jenkins:
         - "8080:8080"
 web:
     image: php:5.6-apache
+    ports:
+        - "8000:80"
