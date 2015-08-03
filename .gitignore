@@ -2,3 +2,4 @@
 www/*
 .ssh
 jenkins_home/*
+dev-www/*
