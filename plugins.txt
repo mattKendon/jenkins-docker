@@ -1,2 +1,1 @@
-php:1.0
-git:2.4.0
+cloverphp:0.4
