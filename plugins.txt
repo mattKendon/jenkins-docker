@@ -1,1 +1,11 @@
 cloverphp:0.4
+checkstyle:3.42
+crap4j:0.9
+dry:2.41
+htmlpublisher:1.5
+jdepend:1.2.4
+plot:1.9
+pmd:3.41
+violations:0.7.11
+warnings:4.48
+xunit:1.96
