@@ -2,5 +2,3 @@ jenkins:
     build: .
     ports:
         - "8080:8080"
-    volumes:
-        - /var/jenkins_home:/var/jenkins_home
